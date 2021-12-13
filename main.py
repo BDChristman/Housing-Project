@@ -248,7 +248,7 @@ try:
                     position = (len(sortedFile.median_income)+1)/2
                     median = sortedFile.median_income[position]
                     break
-        print(f"The median household income for ZIP code {zipcode} is {median:,}.\n")
+        print(f"The median household income for ZIP code {zipcode} is {round(median):,}.\n")
 
 # If there is an exception, show what that is
 except Exception as e:
